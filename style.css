@@ -1,0 +1,79 @@
+/*!
+ Theme Name:   Sambino
+ Theme URI:    http://sambasci.com
+ Description:  Samba Scientific Child Theme for Hello Elementor
+ Author:       Samba Scientific
+ Author URI:   http://sambasci.com
+ Template:     hello-elementor
+ Version:      1.0.1
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  elementorchild
+*/
+
+h3.elementor-post__title:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*
+ *
+ * Resource Page : Fernando note - css is also in resource page main css
+ *
+ */
+
+.applications-tab .eael-tabs-content{
+    overflow: visible;
+}
+/*tab post hover box*/
+.applications-tab .uael-post-wrapper:hover {
+	background:#F5F9FD;
+}
+.resources-filter .uael-post-wrapper:hover {
+	background:#E3ECF6;
+}
+.resources-filter .next, .resources-filter .prev,.applications-tab .next,.applications-tab .prev{
+    display: none !important;
+}
+.resources-filter .page-numbers.current, .applications-tab .page-numbers.current{
+    text-decoration: underline;
+}
+.resources-filter .page-numbers , .applications-tab .page-numbers {
+    text-decoration: none;
+}
+.resources_post .elementor-post__card{
+    box-shadow: none !important;
+}
+.resources_post .elementor-post__card .elementor-post__text{
+	padding: 30px 30px 0 !important;
+	margin-top: 0 !important;
+	transition:0.3s;
+}
+.resources_post .elementor-post__card .elementor-post__text:hover{
+	background: #F5F9FD;
+}
+.resources_post .elementor-post__card .elementor-post__text .elementor-post__badge{
+    position: static;
+    margin: 0;
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 4px 4px 4px 4px;
+    color: #fff;
+    background-color: #2156A3;
+    font-family: "Raleway", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.resources_post .elementor-post__card .elementor-post__text .elementor-post__title a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: #000;
+    font-family: "Work Sans", Sans-serif;
+    font-weight: 500;
+}
+
+/* Careers */
+.career_post {
+
+}
